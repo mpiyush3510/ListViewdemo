@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="45dp"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/StartLst"
+        android:layout_width="74dp"
+        android:layout_height="74dp"
+        android:foreground="@drawable/src_heart_broken_24"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:scaleType="center"
+        android:foregroundTint="@color/white"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="22dp"
+        android:text="@string/start_listview"
+        android:textColor="@color/primary"
+        android:textSize="28sp"
+        app:fontFamily="@font/b612" />
+</LinearLayout>
